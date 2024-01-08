@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # Load the Iris dataset
-dataset = pd.read_csv("iris.csv")
+dataset = pd.read_csv("../File_Sample/iris.csv")
 
 # Separate features and target
 X = dataset.drop('target', axis=1)
